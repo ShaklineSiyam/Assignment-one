@@ -1,0 +1,182 @@
+/* google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Fira Sans", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  width: 1280px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+/* global style start */
+.color-black {
+  color: #0e0e0e;
+}
+
+/* section heading 40px */
+.htext40 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #0e0e0e;
+}
+/* section margin top bottom 80px */
+.section-margin {
+  margin: 80px 0 80px 0;
+}
+/* Global style end */
+/* header style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+nav h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+}
+
+.nav-btn {
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  color: #006a50;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 117px 60px;
+  margin-top: 20px;
+}
+.main-container {
+  display: flex;
+  gap: 64px;
+}
+.content {
+  margin: auto 0;
+}
+.content h6 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #0e0e0e80;
+}
+.content h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  padding: 16px 0 24px 0;
+  width: 610px;
+}
+.hero-btn {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  padding: 17px 34px;
+  color: #ffffff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+}
+/* pillar of bangladesh  */
+
+.p-container {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+.pillar-icon-box {
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
+}
+.pillar-icon-box img {
+  width: 62px;
+  height: 62px;
+}
+.box-heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0e0e0ecc;
+  padding: 24px 0 12px 0;
+}
+.text-box {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #0e0e0eb2;
+}
+
+/* vision of bangladesh */
+.vision > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #0e0e0eb2;
+  padding: 24px 0 32px 0;
+}
+.vision-card {
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 280px;
+}
+
+.card-one {
+  background-color: #5490f533;
+  border: 1px solid #5490f5;
+}
+
+.card-two {
+  background-color: #c6e4d6;
+  border: 1px solid #09a15c;
+}
+.card-three {
+  background-color: #f7ebcf;
+  border: 1px solid #ffc239;
+}
+.vision-card button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+.card-one button {
+  background: #5490f5;
+}
+.card-two button {
+  background: #09a15c;
+}
+.card-three button {
+  background: #ffc239;
+}
