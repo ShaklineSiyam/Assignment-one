@@ -180,3 +180,28 @@ nav h2 {
 .card-three button {
   background: #ffc239;
 }
+.quation {
+  background-image: url("../assets/quote-bg.png");
+  background-color: #fff;
+  background-position-x: 25px;
+  background-position-y: 24px;
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  border: 1px solid #0e0e0e26;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.quation > .text-box {
+  color: #0e0e0ecc;
+}
+
+.quation h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #0e0e0ecc;
+  padding: 12px 0 4px 0;
+}
+.quation p {
+  color: #0e0e0e99;
+}
